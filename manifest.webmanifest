@@ -1,0 +1,12 @@
+{
+  "name": "WebSite_Anketa",
+  "short_name": "WebSite_Anketa",
+  "id": "com.anketa.wek",
+  "description": "",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}
