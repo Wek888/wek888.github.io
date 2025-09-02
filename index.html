@@ -57,6 +57,29 @@
             height: auto; 
             margin: 0 10px; 
         }
+        .telegram-button {
+            background-color: #0088cc; /* Цвет кнопки */
+            color: white; /* Цвет текста */
+            padding: 10px 20px; /* Отступы */
+            border: none; /* Без рамки */
+            border-radius: 5px; /* Закругленные углы */
+            cursor: pointer; /* Указатель при наведении */
+            font-size: 16px; /* Размер шрифта */
+            position: fixed; /* Фиксированное позиционирование */
+            bottom: 20px; /* Отступ от нижнего края */
+            right: 20px; /* Отступ от правого края */
+            z-index: 1000; /* Уровень наложения */
+            display: flex; /* Используем flex для выравнивания */
+            align-items: center; /* Вертикальное выравнивание */
+        }
+        .telegram-button img {
+            width: 20px; /* Ширина логотипа */
+            height: 20px; /* Высота логотипа */
+            margin-right: 8px; /* Отступ между логотипом и текстом */
+        }
+        .telegram-button:hover {
+            background-color: #007bb5; /* Цвет кнопки при наведении */
+        }
     </style>
 </head>
 <body>
@@ -84,5 +107,11 @@
     <footer style="text-align: center;">
         <p>Wek888 | wek888mail@gmail.com | 2025 </p> <!-- Замените на ваш ник и почту -->
     </footer>
+    <a href="https://t.me/@Wek_888" target="_blank">
+        <button class="telegram-button">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/1920px-Telegram_2019_Logo.svg.png" alt="Telegram Logo">
+            Написать в Telegram
+        </button>
+    </a>
 </body>
 </html>
